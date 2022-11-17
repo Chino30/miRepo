@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*index principal*/
+body{
+	background-image: url(img/img2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Anton', sans-serif;
+	color: black;
+}
+/*estilo del header*/
+.page3 li a{
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+    color: pink;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    text-shadow: 2px 2px 5px black;
+    }
+/*estilo del main*/
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+main h1 span{
+display: block;
+}
+.casa1{
+	text-align: center;
+	text-decoration: underline;
+	
+}
+.casa2{
+	text-align: center;
+	text-decoration: underline;
+}
+/*estilo del footer*/
+h4{
+	text-align: center;
+	background-color: violet;
+    border: 50px; 
+	padding: 20px;
+}
+
+/*mq*/
+
+@media screen and(min-width:320px){
+	body{
+		display: block;
+		text-align: left;
+	}
+}
+#page2{
+	
+}
+.casa3 li{
+    list-style: none;
+	text-align: center;
+	text-decoration: none;
+    color: pink;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0,5rem;
+    text-shadow: 2px 2px 5px black;
+}
+/*fotos-pro*/
+.foto{
+	background-image: url(img/img3.jpeg);
+}
+/*estilo de header*/
+.foto1 li a{
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+    color: pink;
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    text-shadow: 2px 2px 5px black;
+    }
+/*estilo del main*
+/*estilo del footer*/
+.fotosYpro1 li{
+	text-align: center;
+	background-color: violet;
+    border: 50px; 
+	padding: 20px;
+}
+body{
+	font-family: 'Anton', sans-serif;
+}
+.loco{
+	text-align:center; color: black;
+}
+/*servicios de make up*/
+ .caja{
+	font-family: 'Anton', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*estilo del header*/
+.caja1{
+	background-color: blue;
+}
+/*estilo del main*/
+.araña1{
+	text-align-last: center;
+	background-color: #DAFF79;
+	padding: 10px;
+	border-radius: 400px;
+}
+body.caja{
+	background-image: url(img/pexels.jpg);
+	font-family: 'Anton', sans-serif;
+}
+.araña3{
+text-align-last: center;
+}
+.araña4{
+	text-align-last: center;
+	list-style: none;
+	}
+/*estilo del footer*/
+.araña5{
+	text-align-last: center;
+	background-color: #DAFF79;
+}
+/* Tutoriaales*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body #tutoriales-uno{	
+	font-family: 'Anton', sans-serif;
+}
+
+
+
+	
